@@ -54,3 +54,45 @@ for(var i = 0 ; i<arr.length ; i++){
         
     }
 }
+
+
+Q . 5 Check whether a year is a leap year. 
+
+var year = 2000;
+var leap = false ; 
+if(year % 4 === 0 ){
+    if(year % 400 ===0 ){
+        leap = true ; 
+    }else if(year % 100 !== 0 ){
+        year = true ; 
+        
+    }
+    else{
+    leap = false
+}
+}
+console.log(leap);
+
+6. Check whether a number is divisible by both 3 and 5.
+var num = 7 ; 
+var val = true ; 
+if(num % 3 === 0  ){
+   val = true ; 
+}else if(num % 5 === 0 ){
+    val = true ; 
+}
+else{
+    val = false ; 
+}
+console.log(val);
+
+7. Swap two numbers without using a third variable.
+
+var a =  3 ; 
+var b = 4 ; 
+a = a + b ; 
+b = a - b ; 
+a = a - b 
+console.log("a : " ,   a);
+console.log(" b :" , b );
+

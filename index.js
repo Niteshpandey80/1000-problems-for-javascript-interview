@@ -135,7 +135,14 @@ console.log(largest);
 console.log(secondlargest);
 console.log(thirdlargest);
 
+10 . Print numbers from 1 to 100.
 
+for(var i=0 ; i<=100 ; i++){
+    console.log(i);
+}
 
+11. Print numbers from 100 to 1.
 
-
+for(var i=100 ; i>=0 ; i-- ){
+    console.log(i); 
+}

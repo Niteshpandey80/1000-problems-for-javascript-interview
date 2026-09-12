@@ -96,3 +96,46 @@ a = a - b
 console.log("a : " ,   a);
 console.log(" b :" , b );
 
+8 . Write a program to find the largest of two numbers.
+
+var arr = [3,7,8,5,4] ;
+var largest = arr[0] ; 
+var secondlargest = arr[0] ;
+for(var i = 0 ; i<arr.length ; i++){
+   if(largest < arr[i]){
+    secondlargest = largest ; 
+    largest = arr[i]
+   }else if(secondlargest < arr[i] && secondlargest != largest){
+      secondlargest = arr[i]
+   }
+}
+console.log(secondlargest);
+console.log(largest);
+
+9.Write a program to find the largest of three numbers.
+
+var arr = [3,7,8,5,4] ;
+var largest = arr[0] ;
+var secondlargest = arr[0] ; 
+var thirdlargest = arr[0] ; 
+
+for(var i = 0 ; i<arr.length ; i++){
+    if(arr[i] > largest){
+        thirdlargest  = secondlargest ; 
+       secondlargest = largest ; 
+       largest = arr[i] ;  
+    }else if(arr[i] > secondlargest){
+        thirdlargest = secondlargest ;
+        secondlargest  = arr[i]  ; 
+    }else if(arr[i]>thirdlargest){
+         thirdlargest = arr[i] ; 
+    }
+}
+console.log(largest);
+console.log(secondlargest);
+console.log(thirdlargest);
+
+
+
+
+

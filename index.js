@@ -146,3 +146,36 @@ for(var i=0 ; i<=100 ; i++){
 for(var i=100 ; i>=0 ; i-- ){
     console.log(i); 
 }
+
+12. Print all even numbers from 1 to 100.
+
+for(var i=1 ; i<=100 ; i++){
+    if(i%2===0){
+       console.log(i);
+    }
+}
+
+13. Print all odd numbers from 1 to 100.
+for(var i=0 ; i<=100 ; i++){
+    if(i%2===0){
+    }else{
+        console.log(i); 
+    }
+} 
+
+14. Find the sum of numbers from 1 to n.
+var n = 5 ;
+ var value = 0 ; 
+for(var i = 0 ; i<=n ; i++){ 
+    value = value + i ; 
+}
+console.log(value);
+
+15. Print the multiplication table of a number.
+var n = 2 ; 
+for(var i =1 ; i<=10 ; i++){
+   var king = i * n ; 
+   console.log(king);
+   
+}
+

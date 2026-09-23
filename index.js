@@ -179,3 +179,24 @@ for(var i =1 ; i<=10 ; i++){
    
 }
 
+16 . Count the number of digits in a number.
+var n = 19203 ; 
+var number = 0 ; 
+while(n>0){
+    n = Math.floor(n/10) ; 
+    number++
+}
+console.log(number);
+
+17 . Reverse a number.
+var n = 1929 ; 
+var reverse = 0  ; 
+while(n>0){
+  var digits = n % 10 ;
+  reverse = reverse * 10 + digits ;
+  n = Math.floor(n/10)
+}
+console.log(reverse);
+
+
+

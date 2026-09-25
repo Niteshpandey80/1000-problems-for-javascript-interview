@@ -198,5 +198,5 @@ while(n>0){
 }
 console.log(reverse);
 
-
+18 . 
 
